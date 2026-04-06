@@ -165,34 +165,50 @@ strong { color: #3e2723; }
 .trophy { font-size: 18px; }
 .roles { margin-bottom: 20px; }
 .roles td:first-child { width: 120px; }
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 30px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid #c4a872;
-  font-family: 'Cinzel', serif;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-.nav a {
-  color: #795548;
+.corner-link {
+  position: absolute;
+  width: 52px;
+  height: 52px;
   text-decoration: none;
+  transition: width 0.15s ease, height 0.15s ease;
+  z-index: 2;
 }
-.nav a:hover { color: #3e2723; }
-.nav .nav-center { color: #b8956a; }
+.corner-link:hover { width: 68px; height: 68px; }
+.corner-link::after {
+  content: attr(data-label);
+  position: absolute;
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #3e2723;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+.corner-link:hover::after { opacity: 1; }
+.corner-tl {
+  top: 0; left: 0;
+  background: linear-gradient(135deg, #b8956a 50%, transparent 50%);
+  border-radius: 2px 0 0 0;
+  box-shadow: inset 2px 2px 3px rgba(0,0,0,0.15);
+}
+.corner-tl::after { top: 72px; left: 4px; }
+.corner-br {
+  bottom: 0; right: 0;
+  background: linear-gradient(315deg, #b8956a 50%, transparent 50%);
+  border-radius: 0 0 2px 0;
+  box-shadow: inset -2px -2px 3px rgba(0,0,0,0.15);
+}
+.corner-br::after { bottom: 72px; right: 4px; }
 </style>
 </head>
 <body>
 <div class="page">
 
-<div class="nav">
-  <a href="game1-html.html">← Mission 1</a>
-  <a href="index.html" class="nav-center">⬆ All Reports</a>
-  <span>&nbsp;</span>
-</div>
+<a href="game1-html.html" class="corner-link corner-tl" data-label="Mission 1: Application Pending"></a>
+<a href="index.html" class="corner-link corner-br" data-label="All Reports"></a>
 
 <h1>Acquisitions Incorporated</h1>
 <h2>Field Report</h2>
