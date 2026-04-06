@@ -29,6 +29,10 @@ The newly formed franchise set up operations in the old roadside inn now christe
 
 The team deployed from The Drunken Dragon with the quiet confidence of people who have never been chased by a dragon. This would change.
 
+### A PROPHET, BRIEFLY
+
+Near a forest trading post, a wild-eyed man in ragged clothing was warning a small group of Malathrex's cultists about the end of the world. A cultist explained, patiently, why dragon worship was the obvious solution. The madman was about to respond — and then winked out of existence in a flash of inky blackness. The cultists decided they'd won. The franchise had no comment.
+
 ### COACH TROUBLES
 
 The very first order of business was a logistics crisis. Deep in the frontier, the team encountered an eccentric representative of Comfort Coaches, who was altogether too enthusiastic about a station platform currently occupied by a rather territorial dragonling. The creature had made itself quite at home, devouring pieces of every building, bench, and signpost as if sampling a party platter. Through a combination of quick thinking and quicker feet, the situation was resolved and coach travel was secured for the region — a small victory that would pay dividends in future expeditions.
