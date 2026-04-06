@@ -16,7 +16,7 @@ This morning, a scroll case appeared on the common room table of The Drunken Dra
 
 The gist: your application has been fast-tracked. Welcome to the team. Don't worry about the fine print. Not worth reading at all, really.
 
-Each associate signed the Charter and received their role.
+Each associate signed the Charter and received their role — then immediately set about doing what Acquisitions Incorporated employees do best: competing with each other while technically being on the same side.
 
 | Associate | Role |
 |---|---|
@@ -26,6 +26,9 @@ Each associate signed the Charter and received their role.
 | **Piko** | Hoardsperson |
 
 On the back of Omin's letter, a postscript warned of a certain **Portentia Dran** — Omin's evil sibling, already expanding her own rival company, **Dran Enterprises**, into the region. The Drunken Dragon franchise was instructed to make sure Acquisitions Incorporated gets a piece of whatever treasure Portentia is after.
+
+The franchise's first official task: help the townsfolk of Wondelcreek. Time to earn that charter.
+
 But first, there was the matter of the bridge — or rather, the lack of one. The collapse that had caused Sir Prize so much grief last mission had not been repaired, so the franchise's first order of business was to bushwhack a new trail south from The Drunken Dragon through the woodlands, bypassing the ruined crossing entirely.  The wilds were now open for business.
 
 ---
@@ -42,7 +45,9 @@ This was, by any reasonable measure, a winning position. All Sir Prize had to do
 
 The question of who would make first contact with the neighboring communities became a matter of heated debate between Piko and Sir Prize. Both were eager. Both were ready. But it was **Piko** — small, fast, and entirely unwilling to wait for a warrior to finish adjusting armor straps — who darted ahead and reached the locals first.
 
-The diminutive adventurer met Duke Destrin, an effusive nobleman with a particular interest in an ancestral sword held by the dwarves in the nearby mountains. Destrin wanted it brought to him, and Piko was happy to accept the contract. The Duke's wizard advisor Vriz also had a request — something about mystic fruit and a tower to the west. Piko nodded along. Contracts were piling up. Business was good.
+The diminutive adventurer met Duke Destrin, an effusive nobleman with a particular interest in an ancestral sword held by the dwarves in the nearby mountains. He who holds the sword rules the mountain, or so they say. Destrin wanted it brought to him, and Piko was happy to accept the contract on behalf of the franchise.
+
+As Piko turned to leave, the Duke's wizard advisor Vriz threw an arm over the little one's shoulder with a casual request of her own — something about mystic fruit and a tower to the west. Piko nodded along. Contracts were piling up. Business was good.
 
 But the real prize from Piko's expedition was the artifact the contract revealed — a blade that now sat within arm's reach of Sir Prize's position. The very warrior who already had three Seals of Excellence now had an artifact practically delivered to the doorstep. Fate, it seemed, was being indecently generous.
 
@@ -80,15 +85,19 @@ And then — all at once — the luck turned. Strength surged through his limbs,
 
 First, an abandoned manor with "TURN BACK" and "STAY AWAY" scrawled on the walls. Bonkbeard went inside anyway, found a library full of strange journals, and was chased out by a spectral figure bursting from a cabinet. He snatched whatever papers he could and ran.
 
-Next, a major secret — and with it, the attention of Malathrex himself. Bonkbeard, running on adrenaline, chose flattery. The dragon listened. Then yawned. "You tell me only what I already know," Malathrex rumbled, before rising lazily into the sky with a thrashing goblin dangling from one talon. Being found *boring* by a dragon was not a compliment — but it beat the alternative.
+Next, a major secret — and with it, the attention of Malathrex himself. The great wyrm loomed overhead, green flame licking between razor-sharp fangs. Bonkbeard, running on pure adrenaline and dwarven stubbornness, chose flattery — praising the dragon's flight, admiring the claws, waxing poetic about the wisdom of Malathrex's rule. The dragon listened. Then yawned. "You tell me only what I already know," Malathrex rumbled, before rising lazily into the sky with a thrashing goblin dangling from one talon. Being found *boring* by a dragon was not a compliment — but it beat the alternative.
 
-Then the wizard Vriz's cabin in the mushroom forest, where a mystic fruit delivery earned a cheerful teleport onward.
+Then the wizard Vriz's cabin in the mushroom forest. A familiar scent of mystic fruit drifted from the window. Vriz was delighted to receive the delivery, plucking the fruit from Bonkbeard's hands and disappearing into the back room. "Thanks for the fruit! It really hit the spot for my, um, experiments," she called out cheerfully, before sending the dwarf on his way with a teleport and a wave.
 
 All of it — the manor, the dragon, the delivery — in a single relentless push. Earlier in the expedition, Bonkbeard and Harry had squabbled over strategy, and in the heat of it Harry had abandoned his signature canoe approach in favor of a crown for quick points. He would come to regret this. Because Bonkbeard had been paying attention, and the canoe was now uncontested.
 
 The dwarf said nothing. He just sailed home. **First to return to The Drunken Dragon.**
 
 The dwarf who couldn't find his footing all day. The dwarf who had been deemed *boring* by a dragon. Bonkbeard claimed his Mug, set it on the bar, and finally allowed himself a smile beneath that magnificent beard.
+
+### UNFINISHED BUSINESS
+
+On the way back, **Piko** passed by the old woman's cauldron once more. She looked up expectantly, stirring with one hand and holding out the other. Piko had nothing to give. The woman's expression didn't change, but her stirring slowed — just slightly — in a way that suggested her patience would not last forever.
 
 ### THE FALL OF SIR PRIZE
 
@@ -116,11 +125,9 @@ There was one more piece of unfinished business. The secret tunnels to the north
 
 This did not go unnoticed by certain parties. Another X on the Dran Enterprises track. The competition was gaining ground, and the franchise hadn't even realized it.
 
+A chipper travel agent appeared as if from nowhere, asking if anyone had been to a certain castle full of ghosts. According to the brochure, the place looked less like a resort and more like a broken-down pile of rubble. The Dran Enterprises logo at the bottom explained everything. They were recruiting hapless vacationers to deal with the resident spirits — apparently quite real and not very friendly.
+
 The shadows of Dran Enterprises were growing longer.
-
-### UNFINISHED BUSINESS
-
-On the way back, **Piko** passed by the old woman's cauldron once more. She looked up expectantly, stirring with one hand and holding out the other. Piko had nothing to give. The woman's expression didn't change, but her stirring slowed — just slightly — in a way that suggested her patience would not last forever.
 
 ---
 
