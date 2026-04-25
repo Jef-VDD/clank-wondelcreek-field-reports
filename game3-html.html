@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Mission 3 — The Drunken Dragon</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #1a1410;
+  color: #2c1810;
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 17px;
+  line-height: 1.7;
+  padding: 20px;
+}
+.page {
+  max-width: 750px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #f4e4c1 0%, #e8d5a8 30%, #f0ddb5 60%, #e5d0a0 100%);
+  border: 3px solid #8b7355;
+  border-radius: 4px;
+  padding: 50px 45px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5), inset 0 0 80px rgba(139,115,85,0.15);
+  position: relative;
+}
+.page::before {
+  content: '';
+  position: absolute;
+  top: 8px; left: 8px; right: 8px; bottom: 8px;
+  border: 1px solid #c4a872;
+  border-radius: 2px;
+  pointer-events: none;
+}
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 28px;
+  text-align: center;
+  color: #3e2723;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  text-align: center;
+  color: #5d4037;
+  margin-bottom: 2px;
+  letter-spacing: 1px;
+}
+h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 15px;
+  text-align: center;
+  color: #795548;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+  color: #3e2723;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 30px 0 12px 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #c4a872;
+}
+.divider {
+  text-align: center;
+  color: #b8956a;
+  margin: 20px 0;
+  font-size: 20px;
+  letter-spacing: 8px;
+}
+.classified {
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #8b0000;
+  margin: 15px 0 4px 0;
+}
+.classified-sub {
+  text-align: center;
+  font-style: italic;
+  color: #795548;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0 20px 0;
+}
+th {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #5d4037;
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 2px solid #c4a872;
+}
+td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #d4c4a0;
+  vertical-align: top;
+}
+td:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+  color: #3e2723;
+}
+p { margin-bottom: 14px; }
+em { color: #5d4037; }
+strong { color: #3e2723; }
+.results td:nth-child(2) { font-style: italic; color: #5d4037; font-size: 15px; }
+.results td:nth-child(3) { font-size: 15px; color: #6d4c41; }
+.home-office {
+  background: rgba(139,115,85,0.1);
+  border-left: 3px solid #b8956a;
+  padding: 15px 20px;
+  margin: 20px 0;
+  font-style: italic;
+  color: #5d4037;
+  font-size: 16px;
+}
+.home-office p { margin-bottom: 10px; }
+.home-office .sig {
+  text-align: right;
+  font-style: italic;
+  margin-top: 10px;
+}
+.next-game {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #c4a872;
+}
+.next-game .label {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #795548;
+  margin-bottom: 6px;
+}
+.next-game .title {
+  font-family: 'Cinzel', serif;
+  font-size: 17px;
+  color: #3e2723;
+  font-weight: 600;
+}
+.next-game .or {
+  color: #b8956a;
+  font-size: 14px;
+  margin: 4px 0;
+}
+.trophy { font-size: 18px; }
+.corner-link {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  text-decoration: none;
+  transition: width 0.15s ease, height 0.15s ease;
+  z-index: 2;
+}
+.corner-link:hover { width: 68px; height: 68px; }
+.corner-link::after {
+  content: attr(data-label);
+  position: absolute;
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #3e2723;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+.corner-link:hover::after { opacity: 1; }
+.corner-tl {
+  top: 0; left: 0;
+  background: linear-gradient(135deg, #b8956a 50%, transparent 50%);
+  border-radius: 2px 0 0 0;
+  box-shadow: inset 2px 2px 3px rgba(0,0,0,0.15);
+}
+.corner-tl::after { top: 72px; left: 4px; }
+.corner-br {
+  bottom: 0; right: 0;
+  background: linear-gradient(315deg, #b8956a 50%, transparent 50%);
+  border-radius: 0 0 2px 0;
+  box-shadow: inset -2px -2px 3px rgba(0,0,0,0.15);
+}
+.corner-br::after { bottom: 72px; right: 4px; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<a href="game2-html.html" class="corner-link corner-tl" data-label="Mission 2: Charter, Better, Faster, Stronger"></a>
+<a href="index.html" class="corner-link corner-br" data-label="All Reports"></a>
+
+<h1>Acquisitions Incorporated</h1>
+<h2>Field Report</h2>
+<h3>Mission 3: "A Little Pain, A Little Treasure"</h3>
+
+<div class="divider">— ◆ —</div>
+
+<h2>Franchise: The Drunken Dragon</h2>
+<h3>Filed by: Regional Oversight (on behalf of the field team)</h3>
+
+<div class="classified">Classified — For Home Office Use Only</div>
+<div class="classified-sub">Corporate reminds you that "treasure" in the mission title refers to company assets. Personal enrichment is a coincidence.</div>
+
+<div class="divider">— ◆ —</div>
+
+<div class="section-title">Prologue</div>
+
+<p>A large box appeared in the common room of The Drunken Dragon, stuffed with a curious assortment of gear and a note from Omin:</p>
+
+<p>"Now that you're part of the corporate family, you need to establish your franchise's Vault. I've also included contact information for the senior Acquisitions Incorporated staff. Use it carefully — by which I mean, remember that I have my Subclause Enumeration Session every afternoon at 3. That is my special time, and it is not to be interrupted."</p>
+
+<p>The franchise established its Vault, selected their treasures, and got to work. The wizard <strong>Vriz</strong> had been named patron for this mission — she'd located a grove of mystic fruit further south and needed it secured against the growing monster activity in the region. The fruit wasn't going to pick itself.</p>
+
+<p>But first, some housekeeping. <strong>Bonkbeard</strong>, finally remembering an obligation from two missions ago, cleared and opened the trail from the Explorers Society lodge — connecting it north from the upper market town. Better late than never. The franchise also received a gift from Mayor Schroeder: an aromatic pie accompanied by the local baker's secret family recipe. A thank-you for Harry's efforts with the townsfolk last mission. The pie was appreciated. The recipe went into the Vault.</p>
+
+<div class="divider">— ◆ —</div>
+
+<div class="section-title">Field Operations — Detailed Account</div>
+
+<div class="section-title">The Race for Fruit</div>
+
+<p>The mission's central objective was clear: retrieve mystic fruit for Vriz before anyone — or anything — else got to it. Three of the four associates set out south immediately. <strong>Piko</strong>, predictably, got there first. The little goblin had a knack for being in the right place before anyone else had finished planning the route. <strong>Bonkbeard</strong> arrived shortly after, claiming his share. <strong>Sir Prize</strong>, bringing up the rear, found nothing but empty branches and trampled undergrowth. The fruit was gone.</p>
+
+<p>The warrior, left with no botanical prizes to deliver, pivoted to the heavy metals contract instead — returning with the iron and little else. Two missions running, Sir Prize had watched opportunities slip through armored fingers while smaller, faster associates darted ahead.</p>
+
+<div class="section-title">Piko's Legendary Sprint</div>
+
+<p>If Bonkbeard's one miraculous effort had defined Mission 2, then Mission 3 belonged to <strong>Piko</strong>. The little goblin-or-gnome hit a stride that left the entire franchise speechless.</p>
+
+<p>First, the castle to the south. A tall, pale man in a long black cloak greeted Piko at the gates. <strong>Count Cauphin</strong> — brother to Duke Destrin, though the two could not be more different. Where the Duke was effusive and scheming, the Count was reserved, brooding, and surrounded by an uncomfortable number of monsters. He needed help thinning the local creature population, and Piko was happy to oblige on behalf of the franchise.</p>
+
+<p>Next, the coast. Piko discovered the wreckage of a fishing camp strewn across a hillside — clearly the victim of a monster raid. The attackers had made off with anything of value, but scuffling sounds on the icy wind suggested the area wasn't entirely abandoned. The camp crumbled into ruin, and Piko plundered what was left before slipping past a ghoul lurking among the wreckage — quick, quiet, and gone before the creature even noticed.</p>
+
+<p>The Ruin, however, yielded something unexpected. Atop a broken wall, a pale man in tattered finery grinned down at Piko with an impressive set of fangs. A vampire — an old one, once a tutor to two sons of a noble house. The brothers' names were familiar: <strong>Duke Destrin</strong> and <strong>Count Cauphin</strong>. The vampire had offered one of them the gift of undeath, and the relationship between the siblings had never recovered. In the fallout, his amulet — the one thing allowing him to leave this place — had been stolen. By which brother, and for what purpose, remained unclear. But the old vampire was desperate, and Piko accepted the contract to retrieve it.</p>
+
+<p>And then, still riding the momentum, Piko delivered the unexpended mystic fruit to Vriz. The wizard was ecstatic — a pristine sample! She examined it under a glass bell, pelting Piko with questions about where it grew and how it was found, before whisking the fruit into the back room for analysis. Piko earned a commendation for the quality of the delivery.</p>
+
+<p>Sir Prize, watching from across the region, noted that Piko had covered more ground in a single afternoon than the warrior had managed all mission. The braids did not sway with triumph this time.</p>
+
+<div class="section-title">The Witch's Brew</div>
+
+<p><strong>Sir Prize</strong>, unable to compete with Piko's pace, turned attention to older business. The cauldron woman — patient but growing less so — was still waiting for ingredients. Sir Prize arrived with a Potion of Healing and offered it up. The woman accepted it without ceremony, stirring it into her brew and applying the results with practiced efficiency.</p>
+
+<p>A small debt, finally paid. The contract that had hung over the franchise since Mission 1 was at last resolved.</p>
+
+<div class="section-title">Bonkbeard Hunts Monsters</div>
+
+<p><strong>Bonkbeard</strong> had set out for the mystic fruit alongside the others, but Piko's speed left him a step behind. No matter — there was plenty of other work to do. The Count's monster problem wasn't going to solve itself.</p>
+
+<p>The whole franchise had been chipping away at the local creature population throughout the mission — a goblin here, a beast there — but it was Bonkbeard who delivered the killing blow on the final monster to close out the contract. The dwarf's usual straightforward approach: find the last one standing, introduce it to the hammer, file the paperwork. Count Cauphin's voice echoed with satisfaction at the results.</p>
+
+<div class="section-title">Sir Prize and the Amulet</div>
+
+<p>With the vampire's contract in hand — courtesy of Piko's earlier discovery — <strong>Sir Prize</strong> made for Duke Destrin's castle. The Duke and the stolen amulet. The brothers' feud. Sir Prize had seen enough of Destrin's "loyalty" speeches to know this wouldn't be simple.</p>
+
+<p>The warrior confronted the Duke about the vampire's missing amulet. Destrin's forced smile turned genuine — and not in a reassuring way. The Duke admitted the theft readily enough, and spoke of his old teacher with contempt. It was hard not to think of the ancestral sword — another treasure the Duke had claimed with that same possessive gleam in his eye, another "loyal friend" whose usefulness had an expiration date. Sir Prize had delivered that sword in good faith last mission. Now, standing in Destrin's hall again, the warrior was beginning to understand the kind of man the Duke truly was.</p>
+
+<p>The confrontation would come, but not today. Sir Prize secured a contract for the fight ahead.</p>
+
+<div class="section-title">Harry's Long Wait</div>
+
+<p><strong>Harry</strong> secured an artifact early enough, but that was where the wizard's luck ran out. The journey home became an exercise in futility. Every path seemed to demand more stamina than Harry could muster. The wizard simply could not find the energy to move.</p>
+
+<p>The rest of the franchise noticed. In a rare display of solidarity — or perhaps just self-preservation, since Harry's prolonged presence in the wilds kept provoking Malathrex — everyone except Bonkbeard stopped acquiring new equipment and supplies, trying desperately not to draw the dragon's attention while Harry inched homeward.</p>
+
+<p>Bonkbeard did not get the memo. Or did not care. The dwarf continued exploring and rummaging through every cave, chest, and ruin he could find — each discovery rattling loud enough to catch Malathrex's ear and putting Harry in ever greater danger.</p>
+
+<p>Despite the franchise's best efforts, Harry never made it home. The wizard collapsed above the danger line — safe enough to count the considerable pile of gold accumulated during all those days of standing around with nowhere to go. The wizard had become the wealthiest associate in franchise history by virtue of having nowhere to spend it.</p>
+
+<div class="section-title">The Dinner That Went Wrong</div>
+
+<p>On the way home, Sir Prize received an invitation to dine with <strong>Count Cauphin</strong>. The dinner was pleasant enough — the Count spoke of family, duty, and the burden of protecting citizens from monsters that his brother couldn't be bothered with. Good food. Good wine. Polite conversation.</p>
+
+<p>And then the group decided Sir Prize should snoop.</p>
+
+<p>To be fair, the warrior didn't need much convincing — but the encouragement from around the dinner table was unanimous. "Just a quick look," they said. "What's the worst that could happen?"</p>
+
+<p>Sir Prize slipped away from the table and found a secondary bedroom lined with identical black cloaks. One was quickly borrowed for a closer look around — only for Count Cauphin himself to appear in the doorway.</p>
+
+<p>"What is the meaning of this? I didn't invite you into my home so you could try on my semi-casual winter Tuesday morningwear! Your superiors will hear from me about this, and I will be taking my future business elsewhere!"</p>
+
+<p>Dran Enterprises gained another foothold in the region. The franchise had gone the entire mission without giving Portentia an inch — and fumbled it at the finish line. The group's collective groan could be heard from Wondelcreek.</p>
+
+<div class="section-title">Copper Promotions</div>
+
+<p>The Home Office processed the franchise's paperwork and confirmed that all four associates had earned promotion to <strong>Copper Associate</strong> status. Various administrative tasks were completed — talents selected, assignments accepted, the usual corporate busywork. The associates nodded politely through the ceremony and immediately forgot most of it.</p>
+
+<div class="divider">— ◆ —</div>
+
+<div class="section-title">Results</div>
+
+<table class="results">
+<tr><th>Associate</th><th>Placement</th><th>Status</th></tr>
+<tr><td><span class="trophy">🏆</span> Bonkbeard</td><td>1st — Most Valuable Employee</td><td>Escaped. Monster hunter. Built an impressive network of companions and allies.</td></tr>
+<tr><td>Piko</td><td>2nd</td><td>Escaped. Covered more ground in a single afternoon than Sir Prize did all mission.</td></tr>
+<tr><td>Harry</td><td>3rd — Associate Spotlight</td><td>Knocked out above ground. Wealthiest associate in franchise history.</td></tr>
+<tr><td>Sir Prize</td><td>4th</td><td>Escaped by the skin of his teeth. Snooped when he shouldn't have.</td></tr>
+</table>
+
+<div class="divider">— ◆ —</div>
+
+<div class="home-office">
+<p>Bonkbeard takes Most Valuable Employee for the second mission running. The dwarf's redemption arc is now a dynasty. His growing network of companions and allies made him nearly unstoppable in the field — every connection seemed to open another door. We're considering a documentary.</p>
+<p>Piko's sprint through the southern territories — castle, fishing village, vampire, fruit delivery — has been noted as the most efficient single-expedition performance since Bonkbeard's legendary effort last mission. The franchise appears to be developing a tradition of one associate per mission doing everything while the others watch.</p>
+<p>Harry's knockout is regrettable but financially impressive. The wizard accumulated more gold standing still than most associates earn in a full expedition. We have filed this under "Passive Income Strategy" and will be studying it further.</p>
+<p>Regarding the Cauphin dinner incident: the franchise went an entire mission without giving Dran Enterprises an inch. One entire mission. And then the entire table convinced Sir Prize to try on a vampire's cloak collection. We note this is the second time Sir Prize has been "encouraged" by colleagues into a decision with catastrophic consequences. The warrior may wish to reconsider the quality of advice being received.</p>
+<p>The cauldron contract is finally resolved. Only took three missions. The Home Office appreciates the franchise's commitment to eventually completing things.</p>
+<p class="sig">— Filed on behalf of Omin Dran, CEO</p>
+</div>
+
+<div class="next-game">
+<div class="label">Come Back Next Mission For:</div>
+<div class="title">Head to Headache</div>
+<div class="or">— OR —</div>
+<div class="title">Circles Take the Share</div>
+</div>
+
+</div>
+</body>
+</html>
