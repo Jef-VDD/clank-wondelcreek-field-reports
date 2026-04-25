@@ -14,9 +14,9 @@
 
 A large box appeared in the common room of The Drunken Dragon, stuffed with a curious assortment of gear and a note from Omin:
 
-"Now that you're part of the corporate family, you need to establish your franchise's Vault. I've also included contact information for the senior Acquisitions Incorporated staff. Use it carefully — by which I mean, remember that I have my Subclause Enumeration Session every afternoon at 3. That is my special time, and it is not to be interrupted."
+"Now that you're part of the corporate family, you need to establish your franchise's Vault. I've also included contact information for the senior Acquisitions Incorporated staff. Use it carefully — by which I mean, remember that I have my Subclause Enumeration Session every afternoon at 3. That is my special time, and it is not to be interrupted. Also, before you ask: yes, the Vault equipment is coming out of your franchise's operating budget. No, there is no appeals process. You're welcome."
 
-The franchise established its Vault, selected their treasures, and got to work. The wizard **Vriz** had been named patron for this mission — she'd located a grove of mystic fruit further south and needed it secured against the growing monster activity in the region. The fruit wasn't going to pick itself.
+The franchise established its Vault, selected their treasures — trying not to think about the invoice — and got to work. The wizard **Vriz** had been named patron for this mission — she'd located a grove of mystic fruit further south and needed it secured against the growing monster activity in the region. The fruit wasn't going to pick itself.
 
 But first, some housekeeping. **Bonkbeard**, finally remembering an obligation from two missions ago, cleared and opened the trail from the Explorers Society lodge — connecting it north from the upper market town. Better late than never. The franchise also received a gift from Mayor Schroeder: an aromatic pie accompanied by the local baker's secret family recipe. A thank-you for Harry's efforts with the townsfolk last mission. The pie was appreciated. The recipe went into the Vault.
 
@@ -26,9 +26,9 @@ But first, some housekeeping. **Bonkbeard**, finally remembering an obligation f
 
 ### THE RACE FOR FRUIT
 
-The mission's central objective was clear: retrieve mystic fruit for Vriz before anyone — or anything — else got to it. Three of the four associates set out south immediately. **Piko**, predictably, got there first. The little goblin had a knack for being in the right place before anyone else had finished planning the route. **Bonkbeard** arrived shortly after, claiming his share. **Sir Prize**, bringing up the rear, found nothing but empty branches and trampled undergrowth. The fruit was gone.
+The mission's central objective was clear: retrieve mystic fruit for Vriz before anyone — or anything — else got to it. Three of the four associates set out south immediately, and what followed was less a coordinated expedition and more a foot race through the underbrush. **Piko** won, naturally — the little goblin's tiny legs moving at a frequency that defied physics. **Bonkbeard** arrived shortly after, breathing hard, brushing fruit pulp off his beard. **Sir Prize**, bringing up the rear in full armor, found nothing but empty branches and trampled undergrowth. The fruit was gone. Every last piece.
 
-The warrior, left with no botanical prizes to deliver, pivoted to the heavy metals contract instead — returning with the iron and little else. Two missions running, Sir Prize had watched opportunities slip through armored fingers while smaller, faster associates darted ahead.
+The warrior, left with no botanical prizes to deliver, pivoted to the heavy metals contract instead — returning with the iron and little else. Two missions running, Sir Prize had watched opportunities slip through armored fingers while smaller, faster associates darted ahead. The braids hung heavy with frustration.
 
 ### PIKO'S LEGENDARY SPRINT
 
@@ -70,9 +70,9 @@ The confrontation would come, but not today. Sir Prize secured a contract for th
 
 The rest of the franchise noticed. In a rare display of solidarity — or perhaps just self-preservation, since Harry's prolonged presence in the wilds kept provoking Malathrex — everyone except Bonkbeard stopped acquiring new equipment and supplies, trying desperately not to draw the dragon's attention while Harry inched homeward.
 
-Bonkbeard did not get the memo. Or did not care. The dwarf continued exploring and rummaging through every cave, chest, and ruin he could find — each discovery rattling loud enough to catch Malathrex's ear and putting Harry in ever greater danger.
+Bonkbeard did not get the memo. Or did not care. While the rest of the franchise held its breath, whispering and tiptoeing through the wilderness, the unmistakable sound of a dwarf kicking open a treasure chest echoed across the region. Then another. Then the distinct *clang* of a hammer testing whether a cave wall was load-bearing. Each discovery rattled loud enough to catch Malathrex's ear, and the dragon's shadow passed overhead with increasing frequency — putting Harry in ever greater danger.
 
-Despite the franchise's best efforts, Harry never made it home. The wizard collapsed above the danger line — safe enough to count the considerable pile of gold accumulated during all those days of standing around with nowhere to go. The wizard had become the wealthiest associate in franchise history by virtue of having nowhere to spend it.
+Despite the franchise's best efforts, Harry never made it home. The wizard collapsed above the danger line — safe enough to count the considerable pile of gold accumulated during all those days of standing around with nowhere to go. The wizard had become the wealthiest associate in franchise history by virtue of having nowhere to spend it. By the end, the other associates were asking Harry for financial advice. "Stand still," the wizard replied. "And hope nobody needs you to move."
 
 ### THE DINNER THAT WENT WRONG
 
@@ -113,7 +113,7 @@ The Home Office processed the franchise's paperwork and confirmed that all four 
 
 *Harry's knockout is regrettable but financially impressive. The wizard accumulated more gold standing still than most associates earn in a full expedition. We have filed this under "Passive Income Strategy" and will be studying it further.*
 
-*Regarding the Cauphin dinner incident: the franchise went an entire mission without giving Dran Enterprises an inch. One entire mission. And then the entire table convinced Sir Prize to try on a vampire's cloak collection. We note this is the second time Sir Prize has been "encouraged" by colleagues into a decision with catastrophic consequences. The warrior may wish to reconsider the quality of advice being received.*
+*Regarding the Cauphin dinner incident: the franchise went an entire mission without giving Dran Enterprises an inch. One entire mission. And then the entire table convinced Sir Prize to try on a vampire's cloak collection. This marks the third consecutive mission in which Sir Prize has been "encouraged" by colleagues into a decision with unfortunate consequences — delivering the sword in Mission 2, climbing the mountains without pickaxes, and now this. The Home Office would like to gently suggest that if the entire franchise agrees Sir Prize should do something, Sir Prize should probably do the opposite.*
 
 *The cauldron contract is finally resolved. Only took three missions. The Home Office appreciates the franchise's commitment to eventually completing things.*
 
