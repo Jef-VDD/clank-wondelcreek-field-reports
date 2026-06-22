@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Mission 4 — The Drunken Dragon</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #1a1410;
+  color: #2c1810;
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 17px;
+  line-height: 1.7;
+  padding: 20px;
+}
+.page {
+  max-width: 750px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #f4e4c1 0%, #e8d5a8 30%, #f0ddb5 60%, #e5d0a0 100%);
+  border: 3px solid #8b7355;
+  border-radius: 4px;
+  padding: 50px 45px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5), inset 0 0 80px rgba(139,115,85,0.15);
+  position: relative;
+}
+.page::before {
+  content: '';
+  position: absolute;
+  top: 8px; left: 8px; right: 8px; bottom: 8px;
+  border: 1px solid #c4a872;
+  border-radius: 2px;
+  pointer-events: none;
+}
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 28px;
+  text-align: center;
+  color: #3e2723;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  text-align: center;
+  color: #5d4037;
+  margin-bottom: 2px;
+  letter-spacing: 1px;
+}
+h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 15px;
+  text-align: center;
+  color: #795548;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+  color: #3e2723;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 30px 0 12px 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #c4a872;
+}
+.divider {
+  text-align: center;
+  color: #b8956a;
+  margin: 20px 0;
+  font-size: 20px;
+  letter-spacing: 8px;
+}
+.classified {
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #8b0000;
+  margin: 15px 0 4px 0;
+}
+.classified-sub {
+  text-align: center;
+  font-style: italic;
+  color: #795548;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0 20px 0;
+}
+th {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #5d4037;
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 2px solid #c4a872;
+}
+td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #d4c4a0;
+  vertical-align: top;
+}
+td:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+  color: #3e2723;
+}
+p { margin-bottom: 14px; }
+em { color: #5d4037; }
+strong { color: #3e2723; }
+.results td:nth-child(2) { font-style: italic; color: #5d4037; font-size: 15px; }
+.results td:nth-child(3) { font-size: 15px; color: #6d4c41; }
+.home-office {
+  background: rgba(139,115,85,0.1);
+  border-left: 3px solid #b8956a;
+  padding: 15px 20px;
+  margin: 20px 0;
+  font-style: italic;
+  color: #5d4037;
+  font-size: 16px;
+}
+.home-office p { margin-bottom: 10px; }
+.home-office .sig {
+  text-align: right;
+  font-style: italic;
+  margin-top: 10px;
+}
+.next-game {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #c4a872;
+}
+.next-game .label {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #795548;
+  margin-bottom: 6px;
+}
+.next-game .title {
+  font-family: 'Cinzel', serif;
+  font-size: 17px;
+  color: #3e2723;
+  font-weight: 600;
+}
+.next-game .or {
+  color: #b8956a;
+  font-size: 14px;
+  margin: 4px 0;
+}
+.trophy { font-size: 18px; }
+.corner-link {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  text-decoration: none;
+  transition: width 0.15s ease, height 0.15s ease;
+  z-index: 2;
+}
+.corner-link:hover { width: 68px; height: 68px; }
+.corner-link::after {
+  content: attr(data-label);
+  position: absolute;
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #3e2723;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+.corner-link:hover::after { opacity: 1; }
+.corner-tl {
+  top: 0; left: 0;
+  background: linear-gradient(135deg, #b8956a 50%, transparent 50%);
+  border-radius: 2px 0 0 0;
+  box-shadow: inset 2px 2px 3px rgba(0,0,0,0.15);
+}
+.corner-tl::after { top: 72px; left: 4px; }
+.corner-br {
+  bottom: 0; right: 0;
+  background: linear-gradient(315deg, #b8956a 50%, transparent 50%);
+  border-radius: 0 0 2px 0;
+  box-shadow: inset -2px -2px 3px rgba(0,0,0,0.15);
+}
+.corner-br::after { bottom: 72px; right: 4px; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<a href="game3-html.html" class="corner-link corner-tl" data-label="Mission 3: A Little Pain, A Little Treasure"></a>
+<a href="index.html" class="corner-link corner-br" data-label="All Reports"></a>
+
+<h1>Acquisitions Incorporated</h1>
+<h2>Field Report</h2>
+<h3>Mission 4: "A Little Pain, A Little Treasure"</h3>
+
+<div class="divider">— ◆ —</div>
+
+<h2>Franchise: The Drunken Dragon</h2>
+<h3>Filed by: Regional Oversight (on behalf of the field team)</h3>
+
+<div class="classified">Classified — For Home Office Use Only</div>
+<div class="classified-sub">The Home Office would like to remind all associates that "surviving" and "succeeding" are not the same thing. Though in this case, surviving would have been nice too.</div>
+
+<div class="divider">— ◆ —</div>
+
+<div class="section-title">Prologue</div>
+
+<p><strong>Garji</strong> from the Explorers Society needed the franchise to investigate disrupted ley lines, strange disappearances, and patches of dark magic cropping up across the region. Dran Enterprises had been hired for the same job — because apparently the franchise can't even get a monopoly on busywork.</p>
+
+<p><strong>Bonkbeard</strong> surprised everyone by volunteering to become the franchise's <strong>Secretarian</strong>, trading the hammer for a quill. Metaphorically. The hammer stayed within reach.</p>
+
+<p>A letter from Portentia arrived, mocking the franchise's previous efforts and announcing that Dran Enterprises had expanded into the eastern territories. The Comfort Coaches now charged a fare. Everything was getting worse.</p>
+
+<div class="divider">— ◆ —</div>
+
+<div class="section-title">Field Operations — Detailed Account</div>
+
+<div class="section-title">The Dragon's Mission</div>
+
+<p>Malathrex was furious this mission. Not the usual background menace — a sustained, relentless assault that turned every expedition into a sprint between cover. The franchise spent more time dodging green fire than investigating anything.</p>
+
+<p>To make matters worse, Dran Enterprises operatives seized the least valuable artifact on the map — the very one <strong>Sir Prize</strong> had been heading toward. The warrior arrived to find an empty pedestal and boot prints leading east. Three missions of being outpaced by Piko, and now outpaced by Portentia's lackeys. The braids hung limp with defeat.</p>
+
+<div class="section-title">The Volcano</div>
+
+<p>The whole franchise chipped away at the magic circle readings throughout the mission, but it was <strong>Bonkbeard</strong> who completed the final measurement — just in time for the ground beneath <strong>Harry's</strong> feet to split open. A volcano. An actual volcano, erupting directly under the wizard who already couldn't find the energy to move. The landscape reshaped itself around a very startled Harry, and the franchise gained one more reason to question the safety standards of this region.</p>
+
+<p>Bonkbeard earned the <strong>Associate Spotlight</strong> for completing the readings, though the wizard standing in the blast zone may have had a different perspective on who deserved recognition.</p>
+
+<div class="section-title">The Long Crawl Home</div>
+
+<p><strong>Piko</strong> made it home. Nobody else did. <strong>Bonkbeard</strong>, <strong>Harry</strong>, and <strong>Sir Prize</strong> each collapsed within sight of The Drunken Dragon — close enough to smell the pie, too battered to take another step. All three were knocked out above the danger line, earnings intact, dignity less so.</p>
+
+<p>On the road back, <strong>Portentia Dran</strong> herself ambushed the franchise, demanding the research notes. After a brief scuffle, the associates escaped with most of their findings. Portentia had been too focused on the readings to steal anything else — a small mercy on a mission that offered precious few.</p>
+
+<div class="section-title">Aftermath</div>
+
+<p>The Explorers Society reviewed the franchise's findings — and its casualties. The readings were adequate. The artifacts recovered — Harry's silver bars and Sir Prize's helmet among them — were impressive enough to satisfy the Society's customers, and valuable enough to keep Dran Enterprises from claiming any of the remaining treasures on the board. A small victory. But the associates themselves? Too battered, too beaten down. Not a single one had enough left in them to earn the Society's official endorsement. Garji's disappointment was polite but unmistakable.</p>
+
+<p>One thing was certain: the investigation had revealed that the real danger lay underground. The franchise would be heading into the depths next mission — the Underworld side of the region, where the ley lines converged and the answers waited. Assuming anyone was still standing by then.</p>
+
+<div class="divider">— ◆ —</div>
+
+<div class="section-title">Results</div>
+
+<table class="results">
+<tr><th>Associate</th><th>Placement</th><th>Status</th></tr>
+<tr><td><span class="trophy">🏆</span> Piko</td><td>1st — Most Valuable Employee</td><td>The only one to make it home.</td></tr>
+<tr><td>Bonkbeard</td><td>2nd — Associate Spotlight</td><td>Knocked out at the gates. Discovered a volcano.</td></tr>
+<tr><td>Harry</td><td>3rd</td><td>Knocked out at the gates.</td></tr>
+<tr><td>Sir Prize</td><td>4th</td><td>Knocked out at the gates.</td></tr>
+</table>
+
+<div class="divider">— ◆ —</div>
+
+<div class="home-office">
+<p>This report is short because there is very little to report. Three of four associates failed to return to headquarters under their own power. The investigation yielded a volcano — on top of our wizard — a pile of inconclusive readings, and a failed endorsement from the Explorers Society. The franchise's shortest and least productive mission to date.</p>
+<p>Piko — the smallest associate — was the only one to make it home. The Home Office is beginning to wonder if the other three are strictly necessary.</p>
+<p>The volcano will need to be addressed. Our actuarial tables did not account for eruptions. Expect a surcharge.</p>
+<p>Next mission takes the franchise underground. Given that they could barely survive the surface, we anticipate this going extremely well.</p>
+<p class="sig">— Filed on behalf of Omin Dran, CEO</p>
+</div>
+
+<div class="next-game">
+<div class="label">Come Back Next Mission For:</div>
+<div class="title">A Flip of the Tongue</div>
+<div class="or">— OR —</div>
+<div class="title">Why We Had to Rename the Depths</div>
+</div>
+
+</div>
+</body>
+</html>
