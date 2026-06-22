@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Mission 5 — The Drunken Dragon</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #1a1410;
+  color: #2c1810;
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 17px;
+  line-height: 1.7;
+  padding: 20px;
+}
+.page {
+  max-width: 750px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #f4e4c1 0%, #e8d5a8 30%, #f0ddb5 60%, #e5d0a0 100%);
+  border: 3px solid #8b7355;
+  border-radius: 4px;
+  padding: 50px 45px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5), inset 0 0 80px rgba(139,115,85,0.15);
+  position: relative;
+}
+.page::before {
+  content: '';
+  position: absolute;
+  top: 8px; left: 8px; right: 8px; bottom: 8px;
+  border: 1px solid #c4a872;
+  border-radius: 2px;
+  pointer-events: none;
+}
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 28px;
+  text-align: center;
+  color: #3e2723;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  text-align: center;
+  color: #5d4037;
+  margin-bottom: 2px;
+  letter-spacing: 1px;
+}
+h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 15px;
+  text-align: center;
+  color: #795548;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+  color: #3e2723;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 30px 0 12px 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #c4a872;
+}
+.divider {
+  text-align: center;
+  color: #b8956a;
+  margin: 20px 0;
+  font-size: 20px;
+  letter-spacing: 8px;
+}
+.classified {
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #8b0000;
+  margin: 15px 0 4px 0;
+}
+.classified-sub {
+  text-align: center;
+  font-style: italic;
+  color: #795548;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0 20px 0;
+}
+th {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #5d4037;
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 2px solid #c4a872;
+}
+td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #d4c4a0;
+  vertical-align: top;
+}
+td:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+  color: #3e2723;
+}
+p { margin-bottom: 14px; }
+em { color: #5d4037; }
+strong { color: #3e2723; }
+.results td:nth-child(2) { font-style: italic; color: #5d4037; font-size: 15px; }
+.results td:nth-child(3) { font-size: 15px; color: #6d4c41; }
+.home-office {
+  background: rgba(139,115,85,0.1);
+  border-left: 3px solid #b8956a;
+  padding: 15px 20px;
+  margin: 20px 0;
+  font-style: italic;
+  color: #5d4037;
+  font-size: 16px;
+}
+.home-office p { margin-bottom: 10px; }
+.home-office .sig {
+  text-align: right;
+  font-style: italic;
+  margin-top: 10px;
+}
+.next-game {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #c4a872;
+}
+.next-game .label {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #795548;
+  margin-bottom: 6px;
+}
+.next-game .title {
+  font-family: 'Cinzel', serif;
+  font-size: 17px;
+  color: #3e2723;
+  font-weight: 600;
+}
+.next-game .or {
+  color: #b8956a;
+  font-size: 14px;
+  margin: 4px 0;
+}
+.trophy { font-size: 18px; }
+.corner-link {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  text-decoration: none;
+  transition: width 0.15s ease, height 0.15s ease;
+  z-index: 2;
+}
+.corner-link:hover { width: 68px; height: 68px; }
+.corner-link::after {
+  content: attr(data-label);
+  position: absolute;
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #3e2723;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+.corner-link:hover::after { opacity: 1; }
+.corner-tl {
+  top: 0; left: 0;
+  background: linear-gradient(135deg, #b8956a 50%, transparent 50%);
+  border-radius: 2px 0 0 0;
+  box-shadow: inset 2px 2px 3px rgba(0,0,0,0.15);
+}
+.corner-tl::after { top: 72px; left: 4px; }
+.corner-br {
+  bottom: 0; right: 0;
+  background: linear-gradient(315deg, #b8956a 50%, transparent 50%);
+  border-radius: 0 0 2px 0;
+  box-shadow: inset -2px -2px 3px rgba(0,0,0,0.15);
+}
+.corner-br::after { bottom: 72px; right: 4px; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<a href="game4-html.html" class="corner-link corner-tl" data-label="Mission 4: Circles Take the Share"></a>
+<a href="index.html" class="corner-link corner-br" data-label="All Reports"></a>
+
+<h1>Acquisitions Incorporated</h1>
+<h2>Field Report</h2>
+<h3>Mission 5: "Why We Had to Rename the Depths"</h3>
+
+<div class="divider">— ◆ —</div>
+
+<h2>Franchise: The Drunken Dragon</h2>
+<h3>Filed by: Regional Oversight (on behalf of the field team)</h3>
+
+<div class="classified">Classified — For Home Office Use Only</div>
+<div class="classified-sub">For the first time in franchise history, all associates returned home under their own power. The Home Office is as surprised as you are.</div>
+
+<div class="divider">— ◆ —</div>
+
+<div class="section-title">Prologue</div>
+
+<p>The investigation into the disrupted ley lines had pointed underground. The franchise flipped their maps, packed their interns, and descended into the <strong>Underworld</strong> — a vast network of caverns, ancient ruins, and things best left undisturbed.</p>
+
+<p>A note from the Home Office accompanied the mission briefing: the Explorers Society's reports suggested the ruins of an ancient civilization lay connected to these caverns, centered around a massive underground pyramid. Dran Enterprises was already down here. The franchise was to explore, take readings, and — above all — reach the pyramid before Portentia's people did.</p>
+
+<p>The Home Office also allocated a batch of interns to the franchise. Their enthusiasm was commendable. Their life expectancy was not discussed.</p>
+
+<div class="divider">— ◆ —</div>
+
+<div class="section-title">Field Operations — Detailed Account</div>
+
+<div class="section-title">Piko and the Gremlins</div>
+
+<p><strong>Piko</strong> ventured into a dense thicket and was promptly surrounded by several small figures bursting from the undergrowth. Gremlins. The leader hopped onto a follower's shoulders to look Piko in the eye — which, given the goblin's own stature, was a generous interpretation of "eye level."</p>
+
+<p>"Stick 'em up! This is our turf, and nobody gets to come through without payin' the toll!"</p>
+
+<p>Piko, perhaps recognizing a kindred spirit in the tiny, aggressive creatures, chose to surrender. The gremlins wrapped the goblin's wrists in grass, sat their captive down on a large mushroom, and conferred among themselves before approaching with a proposition: check out a certain shrine behind a stone monkey face in exchange for freedom. The gremlins knew all about it. They just weren't scared. Neither. Definitely not scared.</p>
+
+<p>Piko agreed. A new patron — the Gremlin Leader herself — was acquired, and the franchise gained a reluctant but surprisingly well-informed set of allies in the Underworld.</p>
+
+<p>With the gremlins dealt with, Piko did something nobody expected: hopped on the stagecoach heading into the deepest reaches of the caverns and emerged with the <strong>most valuable artifact</strong> in the entire Underworld. No hesitation, no committee, no asking for permission. The smallest associate simply rode straight into the most dangerous part of the map and came back carrying treasure worth more than everyone else's combined!</p>
+
+<div class="section-title">Bonkbeard Claims the Pyramid</div>
+
+<p><strong>Bonkbeard</strong> didn't wait. Through a fortunate early find, the dwarf launched himself across the Underworld and materialized on top of the pyramid before anyone else had finished descending the first staircase.</p>
+
+<p>The pyramid was ancient, untouched, and clearly significant. Ornate bronze doors loomed at the summit, drifting open at Bonkbeard's touch to reveal an unnatural blackness beyond. And then a voice — booming, echoing, far too loud for comfort:</p>
+
+<p>"HELLO? TO WHOM AM I SPEAKING? I AM A SERVANT OF ZROG MOGOLTH, THE DECEIVER IN THE DARK, THE ETERNAL HUNGER, AND I HAVE BEEN TRYING FOR SOME TIME TO REACH A DEITY OF YOUR REALM. IS THIS A DEITY, OR AT LEAST A DEMIGOD?"</p>
+
+<p>Bonkbeard stared into the darkness. The darkness stared back. The dwarf admitted, truthfully, that he was a mere mortal.</p>
+
+<p>The response was not kind.</p>
+
+<p>"WHAT? HOW DID YOU GET ON THIS LINE? KNOW THIS — YOU AND ALL MORTALS OF YOUR WORLD WILL BE SEARED! YOUR DESTRUCTION WILL PRESAGE A NEW ERA OF DARKNESS! BOW DOWN BEFORE THE AWESOME POWER OF ZROG MOGOLTH, THE DECEIVER IN THE DARK, THE ETERNAL HUNGER!"</p>
+
+<p>Bonkbeard's head split with pain. His vision blurred. An overwhelming urge to kneel — to surrender, to serve — clawed at his mind. But the dwarf gritted his teeth, tore himself free of the presence, and staggered backwards down the pyramid steps. By the time his mind cleared, he was halfway down the mountain, shaking, with the distinct feeling that something terrible had just tried to crawl inside his skull.</p>
+
+<p>The dwarf earned the <strong>Associate Spotlight</strong> for reaching the pyramid first — though "first contact with an interdimensional horror's receptionist" was not in the original job description. Words of Madness were recovered from the encounter. Nobody was eager to read them.</p>
+
+<div class="section-title">The Wizard's Errands</div>
+
+<p><strong>Harry</strong> found Vriz's cabin in the mushroom forest — a quaint retreat nestled among giant fungi, the scent of mystic fruit tarts drifting from the window. The wizard was in the middle of a new recipe that required some very particular ingredients, and she needed help gathering them.</p>
+
+<p>The errand became a franchise-wide effort. All four associates pitched in over the course of the mission, ticking tasks off one by one until every item on Vriz's list had been accounted for. Vriz was delighted — the glowing purple fungus varieties made a lot more sense once you'd actually seen them in person. Whatever she was making, she seemed satisfied. The franchise knew better than to ask questions.</p>
+
+<div class="section-title">Sir Prize Treats Themselves</div>
+
+<p>With the wizard's errands wrapped up, <strong>Sir Prize</strong> pushed deeper into the caverns and stumbled upon something unexpected: a structure with a shingle reading "Dran Enterprises, Underworld HQ." Portentia had set up shop underground.</p>
+
+<p>A clerk offered a deal: share some information about upcoming Acquisitions Incorporated activities, and receive something valuable in return. Sir Prize hesitated — but only for a moment. After missions of selfless sword deliveries and mountain climbs for the team, perhaps one small indulgence was earned.</p>
+
+<p>Sir Prize shared what he knew.</p>
+
+<p>In return: a <strong>Dragon Egg</strong> — a major secret pulsing with dark energy that immediately drew Malathrex's attention toward everyone <em>except</em> Sir Prize. The other associates felt the dragon's gaze intensify, their every step generating more noise, more danger. For once, Sir Prize walked away with something to show for it.</p>
+
+<div class="section-title">The Magic Words</div>
+
+<p>Harry's real moment came at the stone monkey face — a massive carved head set into the cavern wall, its mouth sealed shut, clearly waiting for something. The "Say What?" contract, courtesy of Piko's gremlin friends, had pointed the franchise here.</p>
+
+<p>The question was simple: did you actually shout the magic words?</p>
+
+<p><strong>Harry shouted the magic words.</strong></p>
+
+<p>The stone face began to move. Its mouth ground open, a low growl resonating through the tunnels, and then it was shouting <em>back</em>. The noise was deafening — a jarring, ear-splitting exchange between wizard and rock that echoed through every corridor of the Underworld. When it finally stopped, a swirling portal had formed within the face's gaping jaws.</p>
+
+<p>Beyond lay a hazy, starlit hallway. Six glyphs glowed with arcane energy, each one a doorway to a magical shrine. Harry chose <strong>LUX</strong> — and stepped through into blinding light.</p>
+
+<p>A marble pavilion. Golden waves of grain shimmering across an impossible landscape. The <strong>Shrine of Light</strong>, ancient and radiant. Harry claimed it for the franchise, and for the first time in several missions, the wizard looked genuinely pleased with himself.</p>
+
+<div class="section-title">Jim Darkmagic's Pocket Dimension</div>
+
+<p>Somewhere around Harry's portal moment, <strong>Bonkbeard</strong> glanced down at his pack and realized he'd been carrying a Mysterious Tome for quite some time without actually reading it. Dwarves and reading — not a natural combination. He cracked it open.</p>
+
+<p>And promptly vanished.</p>
+
+<p>The dwarf reappeared in a small, windowless room with no visible entrance or exit. A low fire crackled in the hearth, casting warm light across a small bar, rich shag carpeting, and — prominently — a heart-shaped waterbed. The kind of room that raises questions you're not sure you want answered.</p>
+
+<p>A man in trademark purple clutched a blanket across his body despite being fully clothed — flowing robes, a neatly trimmed goatee, and the smoldering confidence of someone accustomed to being the most attractive person in any dimension. He looked at Bonkbeard with an expression somewhere between outrage and intrigue.</p>
+
+<p>"You're not supposed to be here! This is my <em>private</em> pocket dimension. Nobody's supposed to be able to get in except me. But now you're here, so... wait, are you me??"</p>
+
+<p><strong>Jim Darkmagic</strong> — legendary magician, dramatic personality, reluctant host. It took about half an hour to convince Jim that Bonkbeard was a real person who had arrived by accident. The conversation was... charged. Jim's private dimension. The heart-shaped waterbed. The blanket clutching. The firelight. Bonkbeard shifted uncomfortably on the shag carpet and suggested they focus on translating some mysterious books instead.</p>
+
+<p>The franchise gained a wealth of new arcane knowledge, upgraded Tomes, and a dwarf who refused to discuss the experience further.</p>
+
+<div class="section-title">The Plots, the Backpack, and the Deep Delve</div>
+
+<p>The return to The Drunken Dragon should have been straightforward. Everyone was healthy. Everyone was in good shape. And then Dran Enterprises played their hand.</p>
+
+<p>Two events struck in quick succession — a <strong>Nefarious Plot</strong> and a <strong>Ruthless Plot</strong>, both bearing Portentia's fingerprints. Stopping them would require sacrifice: gold for one, taking the dragon's wrath for the other. Harry, Sir Prize, and Piko agreed — reluctantly, painfully, but they agreed. The franchise could absorb the cost.</p>
+
+<p>Bonkbeard said no. Twice.</p>
+
+<p>The dwarf needed every last coin for a backpack — a very specific backpack, for a very specific purpose. He was not going to spend gold stopping Portentia's schemes, and he was certainly not going to volunteer for a dragon attack. Not today. Without full cooperation, both plots succeeded.</p>
+
+<p>Two more footholds for Dran Enterprises. Three willing associates and one stubborn dwarf. The others were clearly dissapointed. One more foothold and Portentia would enter a new phase of operations entirely.</p>
+
+<p>And then Bonkbeard revealed his plan. With his shiny new backpack secured, the dwarf turned around and plunged <em>back</em> into the depths, deeper than was remotely sensible — and emerged with an artifact almost as valuable as the one piko had gotten long before him.</p>
+
+<p>The rest of the franchise waited at headquarters, watching the tunnel entrance, deeply conflicted. On one hand, Bonkbeard had refused to help stop two enemy plots, selfishly hoarding his gold. On the other hand, if the dwarf died down there, maybe someone else could be most valuable employee? On the <em>other</em> other hand, his death would lead to another foothold for Dran Enterprises...</p>
+
+<p>They helped. Grudgingly.</p>
+
+<p>Bonkbeard walked through the door of The Drunken Dragon, artifact in hand, beard immaculate, not completely unaware of how close he'd come to being left for dead by his own franchise.</p>
+
+<div class="divider">— ◆ —</div>
+
+<div class="section-title">Results</div>
+
+<table class="results">
+<tr><th>Associate</th><th>Placement</th><th>Status</th></tr>
+<tr><td><span class="trophy">🏆</span> Bonkbeard</td><td>1st — Most Valuable Employee / Associate Spotlight</td><td>Refused to help. Delved greedily. Won anyway. Should have been left for dead.</td></tr>
+<tr><td>Harry</td><td>2nd</td><td>Shouted at a rock. Opened a shrine. Another had a good mission.</td></tr>
+<tr><td>Sir Prize</td><td>3rd</td><td>Treated themselves for once. Acquired a Dragon Egg. Earned it.</td></tr>
+<tr><td>Piko</td><td>4th</td><td>Captured by gremlins. Retrieved the most valuable artifact solo. Deserved better.</td></tr>
+</table>
+
+<div class="divider">— ◆ —</div>
+
+<div class="home-office">
+<p>The franchise's first Underworld expedition was, against all expectations, a success. All associates returned alive and ambulatory. We had to check twice.</p>
+<p>Piko rode a stagecoach into the deepest cavern in the Underworld and returned with the single most valuable artifact of the mission. No backup. No committee. The Home Office would like to formally recognize this as the most competent solo operation in franchise history. We continue to wonder why the other three are necessary.</p>
+<p>Bonkbeard's performance this mission requires... careful analysis. The dwarf teleported to the pyramid, earned the Associate Spotlight, then refused to cooperate with two anti-Dran operations while the rest of the franchise was willing to pay the cost — directly handing Portentia two footholds. He spent his hoarded gold on a backpack, delved greedily back into the depths for a second artifact, and then relied on the very colleagues he'd undermined to keep him alive on the way home. The result: Most Valuable Employee. The Home Office is forced to acknowledge that leaving him for dead — as several associates reportedly considered — would have produced a different, and arguably more deserved, winner. Our corporate incentive structure that rewards selfishness, uncooperativeness, and reckless endangerment with the highest honor available may need review. Or perhaps it is working exactly as intended? We will get back to you on this.</p>
+<p>Harry's discovery of the Shrine of Light is the mission's most significant strategic gain. The shrines appear to be part of an ancient network that locked dangerous things out of this world. The Home Office strongly recommends finding more of them.</p>
+<p>Sir Prize shared some franchise intelligence with Dran Enterprises in exchange for a Dragon Egg. A first for the warrior. The Home Office notes this as a minor indiscretion rather than a pattern — everyone is entitled to one selfish moment after being talked into climbing a mountain.</p>
+<p>Two footholds for Dran Enterprises in a single mission, both from Bonkbeard's refusal to cooperate. A third would trigger a new phase of Portentia's operations entirely — which is precisely why the franchise gritted its teeth and made sure the dwarf got home alive. The backpack better have been worth it.</p>
+<p>The word "Zrog Mogolth" appeared in enough reports this mission to warrant concern. Research has been initiated. More to follow.</p>
+<p class="sig">— Filed on behalf of Omin Dran, CEO</p>
+</div>
+
+<div class="next-game">
+<div class="label">Come Back Next Mission For:</div>
+<div class="title">Bear Thee Well</div>
+<div class="or">— OR —</div>
+<div class="title">Saving the Best for Lost</div>
+</div>
+
+</div>
+</body>
+</html>
