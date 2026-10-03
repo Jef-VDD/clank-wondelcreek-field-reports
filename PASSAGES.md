@@ -79,3 +79,29 @@
 | 100 → 5 | Harry | Chose LUX glyph — opened Shrine of Light |
 | 20 | Bonkbeard | Jim Darkmagic's pocket dimension — read Tome late during Harry's portal moment |
 | 70 | Everyone | Epilogue — Zrog Mogolth research, board flips to Overworld |
+
+## Game 6 — "Saving the Best for Lost"
+
+**Winner:** Bonkbeard | **Associate Spotlight:** Piko
+
+| Passage | Who | What |
+|---------|-----|------|
+| 80 | Everyone | Prologue — Omin's message, Museum of the Lost quest, southern map opens |
+| 47 | Piko | Bearnum's Menagerie — Zrog tremor, monsters escape, Portentia already there |
+| 173 | Piko | Menagerie resolved by Dran — Globulous Prism destroyed, Dran Agent placed, Dran foothold |
+| 88 | Franchise | Dran track milestone — rival businesses move in, black cube removed from Dragon Bag |
+| 73 → 64 | Sir Prize | Skittish town, failing magic circle — restored it in one go, town placed (unnamed) |
+| 35 | Bonkbeard | Arrow with ransom note — Hostage Negotiations contract, companion taken |
+| 111 | Bonkbeard | Tracked bandits — rescued hostage (shadow puppets), Seal on companion |
+| 3 → 142 | Piko | Strange lights — Malathrex eats the conjurer, Piko asks the dragon for help |
+| 42 | Sir Prize | Waterfall — elven smuggler companion (Card 060, unnamed) |
+| 147 | Sir Prize | Cauldron witch, black eyes — took the Zrog-tainted book, acquired Card 105 |
+| 72 | Harry | Adventurer academy fair — Zid, intern, Seal of Excellence |
+| 189 | Bonkbeard | Mountain cave — dwarven miner companion (Card 144, unnamed) |
+| 163 | Bonkbeard | Fought and slew Duke Destrin — chose to return the amulet (Card 149 contract, pending) |
+| 76 | Bonkbeard | Old cultist on dead-end overlook — Ruby loses Dragon Attack, artifact 25 claimed |
+| 59 | Harry | Mountain temple — rubbed the lamp, djinn Baldander, artifact 20 |
+| 123 | Piko | Museum of the Lost — met the Curator, Associate Spotlight |
+| 85 | Everyone | Epilogue — Frowned Upon Tome donated, six shrines revealed, board flips to Underworld |
+
+**Still open:** Returning the Amulet (Card 149 → passage 138, Underworld). Unnamed: town, miner, smuggler, Barry Batsbal's alignment/item, Card 136 researcher.
