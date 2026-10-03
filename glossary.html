@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Bonkbeard's Notes</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Rock+Salt&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #1a1410;
+  color: #2b1d14;
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 40px 16px;
+}
+.back {
+  display: block;
+  max-width: 640px;
+  margin: 0 auto 18px auto;
+  color: #c4a872;
+  font-family: 'Caveat', cursive;
+  font-size: 22px;
+  text-decoration: none;
+  transform: rotate(-1.5deg);
+}
+.back:hover { color: #f4e4c1; }
+.note {
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+  padding: 64px 28px 64px 72px;
+  background:
+    radial-gradient(circle at 82% 72%, transparent 52px, rgba(120,72,30,0.18) 54px, rgba(120,72,30,0.08) 60px, transparent 62px),
+    radial-gradient(ellipse at 15% 10%, rgba(139,90,43,0.12), transparent 40%),
+    radial-gradient(ellipse at 90% 95%, rgba(139,90,43,0.16), transparent 45%),
+    linear-gradient(90deg, transparent 52px, rgba(178,34,34,0.45) 52px, rgba(178,34,34,0.45) 54px, transparent 54px),
+    repeating-linear-gradient(180deg, transparent 0, transparent 31px, rgba(90,110,150,0.28) 31px, rgba(90,110,150,0.28) 32px),
+    #f1e3bf;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.6);
+  transform: rotate(-0.6deg);
+  clip-path: polygon(0 1%, 4% 0, 12% 0.6%, 21% 0, 33% 0.8%, 47% 0.1%, 58% 0.7%, 71% 0, 84% 0.9%, 93% 0.2%, 100% 0.8%, 99.6% 30%, 100% 62%, 99.5% 100%, 88% 99.3%, 74% 100%, 60% 99.4%, 45% 100%, 30% 99.2%, 16% 100%, 5% 99.4%, 0 100%, 0.4% 60%, 0 28%);
+}
+.tape {
+  position: absolute;
+  top: 6px;
+  width: 110px;
+  height: 30px;
+  background: rgba(230,220,190,0.6);
+  border-left: 1px dashed rgba(0,0,0,0.08);
+  border-right: 1px dashed rgba(0,0,0,0.08);
+}
+.tape.l { left: 18%; transform: rotate(-5deg); }
+.tape.r { right: 14%; transform: rotate(4deg); }
+h1 {
+  font-family: 'Rock Salt', cursive;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  transform: rotate(-1.2deg);
+}
+.sub {
+  color: #5a4232;
+  margin-bottom: 32px;
+  transform: rotate(-0.8deg);
+}
+.sub s { text-decoration-thickness: 2px; }
+h2 {
+  font-family: 'Rock Salt', cursive;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 32px;
+  display: inline-block;
+  text-decoration: underline wavy;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 6px;
+}
+h2.danger { color: #8b1a1a; }
+section:nth-of-type(2) h2 { transform: rotate(1deg); }
+section:nth-of-type(3) h2 { transform: rotate(-1.5deg); }
+.entry { margin-left: 4px; }
+.entry:nth-child(odd) { transform: rotate(-0.4deg); }
+.entry:nth-child(even) { transform: rotate(0.5deg) translateX(6px); }
+.name {
+  font-weight: 700;
+  font-size: 27px;
+}
+.dead .name {
+  text-decoration: line-through;
+  text-decoration-color: #8b1a1a;
+  text-decoration-thickness: 3px;
+}
+.margin-scrawl {
+  position: absolute;
+  font-size: 20px;
+  color: #8b1a1a;
+  white-space: nowrap;
+}
+.scrawl-1 { right: 20px; top: 70px; transform: rotate(8deg); }
+.scrawl-2 { left: 6px; bottom: 24px; transform: rotate(-86deg); transform-origin: left bottom; color: #5a4232; }
+@media (max-width: 520px) {
+  body { font-size: 21px; }
+  .note {
+    padding: 64px 16px 64px 44px;
+    background:
+      linear-gradient(90deg, transparent 32px, rgba(178,34,34,0.45) 32px, rgba(178,34,34,0.45) 34px, transparent 34px),
+      repeating-linear-gradient(180deg, transparent 0, transparent 31px, rgba(90,110,150,0.28) 31px, rgba(90,110,150,0.28) 32px),
+      #f1e3bf;
+  }
+  .name { font-size: 24px; }
+  .scrawl-1, .scrawl-2 { display: none; }
+}
+</style>
+</head>
+<body>
+
+<a href="index.html" class="back">← back to the reports</a>
+
+<div class="note">
+<div class="tape l"></div>
+<div class="tape r"></div>
+<span class="margin-scrawl scrawl-1">not a glossary!!</span>
+<span class="margin-scrawl scrawl-2">ale. not blood.</span>
+
+<h1>People I've Met</h1>
+<p class="sub">Kept because Secretarian. Not because <s>interesting</s> interested.</p>
+
+<section>
+<h2>Fine</h2>
+<p class="entry"><span class="name">Omin Dran</span> — Boss. Runs Acquisitions Incorporated. Sends letters. Signs things.</p>
+<p class="entry"><span class="name">Garji</span> — Half-orc. Runs the Explorers Society. Hands out jobs.</p>
+<p class="entry"><span class="name">Vriz</span> — Vrizagon fruit wizard. Used to work for Duke. Now wants fruit. Gives teleports. Good trade.</p>
+<p class="entry"><span class="name">Mayor Schroeder</span> — Runs Wondelcreek. Pie.</p>
+</section>
+
+<section>
+<h2>Probably Fine</h2>
+<p class="entry"><span class="name">Jim Darkmagic</span> — Wizard. Works for the company somewhere. Has a waterbed. Don't ask.</p>
+<p class="entry"><span class="name">Cauldron witch</span> — Hut in the forest. Wants ingredients. Eyes gone black lately.</p>
+<p class="entry"><span class="name">Old vampire</span> — Taught Cauphin and Destrin. Bit one. Family didn't take it well. Lives in underworld now.</p>
+<p class="entry"><span class="name">Count Cauphin</span> — Destrin's brother. South castle. Monsters, cloaks, brooding. Not vampire?</p>
+<p class="entry"><span class="name">The Curator</span> — No face. Runs a museum of dead worlds. Says ours is next.</p>
+</section>
+
+<section>
+<h2 class="danger">Not Fine</h2>
+<p class="entry"><span class="name">Portentia Dran</span> — Boss's sister. Runs Dran Enterprises. Steals contracts. Has better pamphlets.</p>
+<p class="entry"><span class="name">Malathrex</span> — Dragon. Big. Owns everything. Has a cult. Said I was boring.</p>
+<p class="entry"><span class="name">Zrog Mogolth</span> — Thing in the pyramid. Shouts. Wants to eat the world. Has a receptionist. Piko will handle.</p>
+<p class="entry dead"><span class="name">Duke Destrin</span> — Destrinoth castle. Collects swords and grudges. Was a vampire. Isn't anymore. You're welcome.</p>
+</section>
+</div>
+
+</body>
+</html>
