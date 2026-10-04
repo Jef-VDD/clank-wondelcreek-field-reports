@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Mission 7 — The Drunken Dragon</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #1a1410;
+  color: #2c1810;
+  font-family: 'Crimson Text', Georgia, serif;
+  font-size: 17px;
+  line-height: 1.7;
+  padding: 20px;
+}
+.page {
+  max-width: 750px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #f4e4c1 0%, #e8d5a8 30%, #f0ddb5 60%, #e5d0a0 100%);
+  border: 3px solid #8b7355;
+  border-radius: 4px;
+  padding: 50px 45px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5), inset 0 0 80px rgba(139,115,85,0.15);
+  position: relative;
+}
+.page::before {
+  content: '';
+  position: absolute;
+  top: 8px; left: 8px; right: 8px; bottom: 8px;
+  border: 1px solid #c4a872;
+  border-radius: 2px;
+  pointer-events: none;
+}
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 28px;
+  text-align: center;
+  color: #3e2723;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  text-align: center;
+  color: #5d4037;
+  margin-bottom: 2px;
+  letter-spacing: 1px;
+}
+h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 15px;
+  text-align: center;
+  color: #795548;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+  color: #3e2723;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 30px 0 12px 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #c4a872;
+}
+.divider {
+  text-align: center;
+  color: #b8956a;
+  margin: 20px 0;
+  font-size: 20px;
+  letter-spacing: 8px;
+}
+.classified {
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #8b0000;
+  margin: 15px 0 4px 0;
+}
+.classified-sub {
+  text-align: center;
+  font-style: italic;
+  color: #795548;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0 20px 0;
+}
+th {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #5d4037;
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 2px solid #c4a872;
+}
+td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #d4c4a0;
+  vertical-align: top;
+}
+td:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+  color: #3e2723;
+}
+p { margin-bottom: 14px; }
+em { color: #5d4037; }
+strong { color: #3e2723; }
+.results td:nth-child(2) { font-style: italic; color: #5d4037; font-size: 15px; }
+.results td:nth-child(3) { font-size: 15px; color: #6d4c41; }
+.home-office {
+  background: rgba(139,115,85,0.1);
+  border-left: 3px solid #b8956a;
+  padding: 15px 20px;
+  margin: 20px 0;
+  font-style: italic;
+  color: #5d4037;
+  font-size: 16px;
+}
+.home-office p { margin-bottom: 10px; }
+.home-office .sig {
+  text-align: right;
+  font-style: italic;
+  margin-top: 10px;
+}
+.next-game {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #c4a872;
+}
+.next-game .label {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #795548;
+  margin-bottom: 6px;
+}
+.next-game .title {
+  font-family: 'Cinzel', serif;
+  font-size: 17px;
+  color: #3e2723;
+  font-weight: 600;
+}
+.next-game .or {
+  color: #b8956a;
+  font-size: 14px;
+  margin: 4px 0;
+}
+.verse {
+  margin: 4px 0 18px 0;
+  padding: 10px 20px;
+  border-left: 3px solid #b8956a;
+  font-style: italic;
+  color: #5d4037;
+}
+.verse p { margin-bottom: 0; }
+.trophy { font-size: 18px; }
+.corner-link {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  text-decoration: none;
+  transition: width 0.15s ease, height 0.15s ease;
+  z-index: 2;
+}
+.corner-link:hover { width: 68px; height: 68px; }
+.corner-link::after {
+  content: attr(data-label);
+  position: absolute;
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #3e2723;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+.corner-link:hover::after { opacity: 1; }
+.corner-tl {
+  top: 0; left: 0;
+  background: linear-gradient(135deg, #b8956a 50%, transparent 50%);
+  border-radius: 2px 0 0 0;
+  box-shadow: inset 2px 2px 3px rgba(0,0,0,0.15);
+}
+.corner-tl::after { top: 72px; left: 4px; }
+.corner-br {
+  bottom: 0; right: 0;
+  background: linear-gradient(315deg, #b8956a 50%, transparent 50%);
+  border-radius: 0 0 2px 0;
+  box-shadow: inset -2px -2px 3px rgba(0,0,0,0.15);
+}
+.corner-br::after { bottom: 72px; right: 4px; }
+</style>
+</head>
+<body>
+<div class="page">
+
+<a href="game6-html.html" class="corner-link corner-tl" data-label="Mission 6: Saving the Best for Lost"></a>
+<a href="index.html" class="corner-link corner-br" data-label="All Reports"></a>
+
+<h1>Acquisitions Incorporated</h1>
+<h2>Field Report</h2>
+<h3>Mission 7: "Live Every Week Like It's Shrine Week"</h3>
+
+<div class="divider">— ◆ —</div>
+
+<h2>Franchise: The Drunken Dragon</h2>
+<h3>Filed by: Regional Oversight (on behalf of the field team)</h3>
+
+<div class="classified">Classified — For Home Office Use Only</div>
+<div class="classified-sub">The dwarf is not Most Valuable Employee. The Home Office has checked. Twice. With some enthusiasm.</div>
+
+<div class="divider">— ◆ —</div>
+
+<div class="section-title">Prologue</div>
+
+<p>The letter from the Home Office was in a different hand this time:</p>
+
+<p>"Hi! Uh, is this thing on? Okay, hello! Hi. This is Jim Darkmagic. Yes, that Jim Darkmagic. I just heard about this Zrog Mogolth thing — an ancient, immortal, pandimensional horror who wants to wear your world as a hat or something? Seems like a jerk. Anyway, Omin filled me in on these shrines. Go find them. Good luck! (Was that good? Is it done? Quit. Stop. Goodbye!)"</p>
+
+<p>The franchise descended into the Underworld with a patron who could not operate a letter.</p>
+
+<div class="section-title">The Morning of Paperwork</div>
+
+<p>Before anyone went anywhere, there was the backlog. A pen had finally been located, and the field notes were brought up to date: the town, the miner, the smuggler, Barry's particulars, the author of the Zrog research — all of it entered into the record at last. The Home Office's insurance department exhaled.</p>
+
+<p>Then the promotions. <strong>Piko</strong> collected a <strong>Silver Associate</strong> rank that had been sitting in the in-tray since last mission. And <strong>Bonkbeard</strong> had reached <strong>Gold Associate</strong>, rewarded for his must-win attitude. The dwarf read his letter in a corner, folded it, and said only that there was a sealed document involved. He did not elaborate. Mysterious.</p>
+
+<p>Finally, an administrative correction. Owing to a cartographic discrepancy for a certain contract, the old vampire's ruin had been recorded on the wrong side of the world. By franchise decree the vampire was relocated to a more Underworldly one. He was not consulted.</p>
+
+<div class="divider">— ◆ —</div>
+
+<div class="section-title">Field Operations — Detailed Account</div>
+
+<div class="section-title">The Oracle</div>
+
+<p><strong>Piko</strong> found Madame Zoltar, a fortune teller in a rundown corner of a pyramid town, and a man in a cat mask waiting outside who promised that if the spirits liked the franchise, his friends would help too. The spirits spoke in verse:</p>
+
+<div class="verse"><p>In one of ten and one of three,<br>
+A circled door, but hard to see.<br>
+From there you seek; go four or two,<br>
+A long trip in comfort, or city streets through.<br>
+A gift of fruit ere you arrive<br>
+And seek her in one of boroughs five.</p></div>
+
+<p>The franchise read it, read it again, and argued about it for most of the mission.</p>
+
+<div class="section-title">The Pickpocket</div>
+
+<p>Passing through a seedy district near the pyramid, Piko lifted a <em>single</em> coin from a stranger's pocket. Sir Prize had wanted to see what the black market artifact was. Sir Prize did not get to see.</p>
+
+<div class="section-title">The Amulet</div>
+
+<p>Bonkbeard had carried Duke Destrin's amulet out of Mission 6; <strong>Harry</strong> carried it the last few steps. The old vampire's hand trembled as he took it. "I don't know if I will ever find forgiveness, but I can start making amends." He gave his name — <strong>Saracula</strong> — and dissolved into mist, and Acquisitions Incorporated gained a patron who had been waiting a very long time for someone to show up.</p>
+
+<div class="section-title">Caelum</div>
+
+<p>Early, in the northeast, Harry noticed a flicker of light in the rock and chipped at it with a pickaxe until the wall gave way: a hidden tunnel, a starlit hallway, a portal. Beyond it, a stone platform in open blue sky — and sitting on it, as if forgotten, a very <em>very</em> valuable artifact. The wizard picked it up. The Shrine of Air was open, and every other associate had just seen what a shrine could pay.</p>
+
+<div class="section-title">Ignis</div>
+
+<p>Sir Prize, still chasing the dwarf through the deep southwest, found a magic circle that opened a doorway of its own. Beyond it: wrought iron over a lava crater, heat like a forge, and one of Portentia's people already inside. The warrior dealt with the Dran agent without much ceremony. The Shrine of Fire was open.</p>
+
+<div class="section-title">The Order of the Pink Cat</div>
+
+<p>Piko went deep — deeper than anyone — and found a stone fortress carved into the cavern wall, guarded by surprisingly amiable knights. The Order of the Pink Cat: sworn to stand at the gates of the world and hold them against invaders from beyond. They had felt Zrog Mogolth stirring. They welcomed another blade, and asked only that the franchise remember the name. The franchise wrote it down. There was a pen now.</p>
+
+<div class="section-title">The Still Lake</div>
+
+<p><strong>Bonkbeard</strong> had been eyeing a perfectly still underground lake all mission, had a plan involving a boat, and had said so — while <strong>Sir Prize</strong> shadowed him southwest, competing for everything the dwarf wanted. Harry simply went northeast instead, arrived at the lake first with exactly the right thing in his pack, and the water drew back into a tunnel along the lakebed. A coral platform. A granite pillar. A crash of water that did not drown him. The Shrine of Water was open, snooped out from under the dwarf's nose. Somewhere, the canoe wizard of Mission 1 nodded.</p>
+
+<div class="section-title">The Riddle, Solved</div>
+
+<p>Three shrines open, and the verse still in Piko's pocket. The franchise sat down with it properly.</p>
+
+<p>The route came first. "A long trip in comfort" — could these be Comfort Coaches? "One of ten and one of three": ten mushroom groves, yes, but three of <em>what</em>? Three magic circles — or three Dran encampments, which is where the franchise stared for a long while, at entirely the wrong patch of cavern.</p>
+
+<p>And "boroughs five." Nobody could count five of anything. Ruins? Bonkbeard counted. Four.</p>
+
+<p>Then the dwarf counted towns. Five. The groves, the circle, the coach, the two roads, the five towns — everything fit at once, and the only associate holding a mystic fruit was him.</p>
+
+<p>He walked east to the spot...</p>
+
+<p>He was right. A spirit with a fondness for fruit snapped its fingers and showed him a doorway in the eastern rock. Not the great artifact the dwarf had hoped for.</p>
+
+<div class="section-title">Umbra</div>
+
+<p>Bonkbeard had already sprinted to the Shrine of Light earlier — standing since Mission 5 — to become the first associate carrying a shrine's blessing. <strong>Associate Spotlight</strong>. He had also, since then, watched Harry walk off a shrine platform with a free artifact.</p>
+
+<p>So he went back down, marched to his new eastern doorway with the clear expectation that his shrine would come with a prize too, and stepped through into a void. Fallen stonework. Gnarled trees around a crypt. A faint wail from inside. Where Harry's shrine had handed over a treasure, Bonkbeard's handed over a ruin to dig through and something in it that did not want digging. The Shrine of Shadow was open. The dwarf was, for once, not impressed with his own luck. It would not improve.</p>
+
+<div class="section-title">The Reckoning</div>
+
+<p>Five shrines stood open. The franchise should have gone home.</p>
+
+<p>Instead, somewhere in the deepest part of the Underworld, the detour to the dark shrine did not prove fruitful for the dwarf. Bonkbeard was in trouble.</p>
+
+<p>Seven missions of refusing to help, and the lesson had finally landed with his colleagues. Employees who don't make it up cannot be reviewed!</p>
+
+<p><strong>Sir Prize</strong> started buying. <strong>Harry</strong> quickly ran home making as much noise as possible. Even <strong>Piko</strong> bought the entire market in an afternoon. Every purchase rattled. Every rattle woke the dragon. Every time Malathrex looked down, he looked at the dwarf.</p>
+
+<p>Bonkbeard went down in the depths, where the haul does not come home. There was cheering. It was not subtle.</p>
+
+<p>Then Sir Prize collapsed two steps from the inn, and Piko one step from it. Both above the danger line, hauls intact.</p>
+
+<p>Harry walked in alone.</p>
+
+<div class="section-title">The Shrine Map</div>
+
+<p>The epilogue found the franchise's wall covered in yarn, chalk, and five shrine locations. Light, Air, Water, Fire, Shadow. One missing. A squat clockwork automaton rolled in with a drink — officially branded, upgrades chosen by <strong>Harry</strong> as the franchise's resident fixer — and nobody asked where it had come from.</p>
+
+<p>Two more letters arrived with it. <strong>Sir Prize</strong>: Silver Associate. <strong>Harry</strong>: Gold.</p>
+
+<p>Which made two Gold Associates in one franchise — and made sense of Bonkbeard's morning. The sealed document in the dwarf's pocket needed two Gold seals broken together.</p>
+
+<p>Harry read his letter. Looked at the dwarf. Looked at the letter again. "I'll think about it."</p>
+
+<div class="divider">— ◆ —</div>
+
+<div class="section-title">Results</div>
+
+<table class="results">
+<tr><th>Associate</th><th>Placement</th><th>Status</th></tr>
+<tr><td><span class="trophy">🏆</span> Harry</td><td>1st — Most Valuable Employee</td><td>Two shrines. One artifact. One vampire pensioned off. Walked home.</td></tr>
+<tr><td>Sir Prize</td><td>2nd</td><td>Opened Ignis. Cleared its Dran agent. Beat the dwarf. Still second.</td></tr>
+<tr><td>Piko</td><td>3rd</td><td>Found the Pink Cat. Made the most noise. One step short.</td></tr>
+<tr><td>Bonkbeard</td><td>4th — Associate Spotlight</td><td>Solved the riddle. First to a shrine. Died in the depths.</td></tr>
+</table>
+
+<div class="divider">— ◆ —</div>
+
+<div class="home-office">
+<p>Harry is Most Valuable Employee for the first time since Mission 1. The Home Office had begun to suspect the canoe was a fluke. The suspicion is withdrawn. Canoe wizard has returned. The reputation has been renewed for a further five missions.</p>
+<p>Sir Prize finished second. Witnesses describe it as the happiest second place in franchise history.</p>
+<p>Bonkbeard claimed the first shrine blessing and the Associate Spotlight and was then located in the deepest part of the Underworld by a dragon his colleagues had spent the afternoon directing toward him. The Home Office has been observing this franchise's approach to cooperation for seven missions. Five shrines open, one dwarf temporarily unavailable. The exchange rate is acceptable.</p>
+<p>The franchise checked the "Casualties Suffered" box for the first time this mission. Acquisitions Incorporated does not let a little death get in the way of a significant investment; Bonkbeard will be recovered, slightly less himself. Administration is still the biggest threat to the party. A review of Mission 2 finds the box unchecked despite Sir Prize falling in the mountains and reporting for Mission 3 regardless. No recovery was processed. The Home Office has no record of how the warrior came back. If this is the same Sir Prize, the paperwork is overdue. If it is not, the paperwork is the least of anyone's concerns.</p>
+<p>The Home Office considers Document X less a document than a measurement in curiosity. Current reading: inconclusive.</p>
+<p>The field notes are current for the first time. Seven missions, one pen, and it was in the drawer the whole time.</p>
+<p>Five shrines open. One remains. Zrog Mogolth's paperwork is still pending. So is yours.</p>
+<p class="sig">— Filed on behalf of Omin Dran, CEO</p>
+</div>
+
+<div class="next-game">
+<div class="label">Come Back Next Mission For:</div>
+<div class="title">Too Many Crooks</div>
+<div class="or">— OR —</div>
+<div class="title">Know Thy Frenemy</div>
+</div>
+
+</div>
+</body>
+</html>
