@@ -6,7 +6,7 @@
 ---
 
 **CLASSIFIED — FOR HOME OFFICE USE ONLY**
-*The dwarf is not Most Valuable Employee. The Home Office has checked. Twice. With some enthusiasm.*
+*The dwarf is not Most Valuable Employee and certainly not the most alive employee.*
 
 ---
 
@@ -22,7 +22,7 @@ The franchise descended into the Underworld with a patron who could not operate 
 
 Before anyone went anywhere, there was the backlog. A pen had finally been located, and the field notes were brought up to date: the town, the miner, the smuggler, Barry's particulars, the author of the Zrog research — all of it entered into the record at last. The Home Office's insurance department exhaled.
 
-Then the promotions. **Piko** collected a **Silver Associate** rank that had been sitting in the in-tray since last mission. And **Bonkbeard** had reached **Gold Associate**, rewarded for his must-win attitude. The dwarf read his letter in a corner, folded it, and said only that there was a sealed document involved. He did not elaborate. Mysterious.
+Then the promotions. **Piko** collected a **Silver Associate** rank that had been sitting in the in-tray since last mission. And **Bonkbeard** reached **Gold Associate** first. Of course he did. Six missions of never sharing will do that. The dwarf read his letter in a corner, folded it, and said only that there was a sealed document involved. He did not elaborate. He has never elaborated.
 
 Finally, an administrative correction. Owing to a cartographic discrepancy for a certain contract, the old vampire's ruin had been recorded on the wrong side of the world. By franchise decree the vampire was relocated to a more Underworldly one. He was not consulted.
 
@@ -57,7 +57,7 @@ Early, in the northeast, Harry noticed a flicker of light in the rock and chippe
 
 ### IGNIS
 
-Sir Prize, still chasing the dwarf through the deep southwest, found a magic circle that opened a doorway of its own. Beyond it: wrought iron over a lava crater, heat like a forge, and one of Portentia's people already inside. The warrior dealt with the Dran agent without much ceremony. The Shrine of Fire was open.
+Sir Prize, chasing the dwarf through the deep southwest, found a magic circle that opened a doorway of its own. Beyond it: wrought iron over a lava crater, heat like a forge, and one of Portentia's people already inside. The warrior dealt with the Dran agent without much ceremony. The Shrine of Fire was open.
 
 ### THE ORDER OF THE PINK CAT
 
@@ -101,7 +101,7 @@ Bonkbeard went down in the depths, where the haul does not come home. There was 
 
 Then Sir Prize collapsed two steps from the inn, and Piko one step from it. Both above the danger line, hauls intact.
 
-Harry walked in alone.
+Harry canoed home alone.
 
 ### THE SHRINE MAP
 
@@ -119,10 +119,10 @@ Harry read his letter. Looked at the dwarf. Looked at the letter again. "I'll th
 
 | Associate | Placement | Status |
 |---|---|---|
-| **Harry** | 🏆 1st — Most Valuable Employee | Two shrines. One artifact. One vampire pensioned off. Walked home. |
+| **Harry** | 🏆 1st — Most Valuable Employee | Two shrines. One artifact. One vampire pensioned off. |
 | **Sir Prize** | 2nd | Opened Ignis. Cleared its Dran agent. Beat the dwarf. Still second. |
 | **Piko** | 3rd | Found the Pink Cat. Made the most noise. One step short. |
-| **Bonkbeard** | 4th — Associate Spotlight | Solved the riddle. First to a shrine. Died in the depths. |
+| **Bonkbeard** | 4th — Associate Spotlight | Solved the riddle. Got the spotlight then died in the depths |
 
 ---
 
@@ -133,6 +133,8 @@ Harry read his letter. Looked at the dwarf. Looked at the letter again. "I'll th
 *Sir Prize finished second. Witnesses describe it as the happiest second place in franchise history.*
 
 *Bonkbeard claimed the first shrine blessing and the Associate Spotlight and was then located in the deepest part of the Underworld by a dragon his colleagues had spent the afternoon directing toward him. The Home Office has been observing this franchise's approach to cooperation for seven missions. Five shrines open, one dwarf temporarily unavailable. The exchange rate is acceptable.*
+
+*Piko: deepest associate, found the Pink Cat, loudest shopper to their own detriment and came one step short. The Home Office has no further notes.*
 
 *The franchise checked the "Casualties Suffered" box for the first time this mission. Acquisitions Incorporated does not let a little death get in the way of a significant investment; Bonkbeard will be recovered, slightly less himself. Administration is still the biggest threat to the party. A review of Mission 2 finds the box unchecked despite Sir Prize falling in the mountains and reporting for Mission 3 regardless. No recovery was processed. The Home Office has no record of how the warrior came back. If this is the same Sir Prize, the paperwork is overdue. If it is not, the paperwork is the least of anyone's concerns.*
 
